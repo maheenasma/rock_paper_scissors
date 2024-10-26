@@ -67,7 +67,7 @@ img{
   border-radius: 1rem;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 600px) {
   body{
     .choices{
       flex-direction: column;
