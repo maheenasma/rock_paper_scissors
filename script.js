@@ -16,7 +16,7 @@ const genCompMove = () =>{
 const drawGame = () =>{
   console.log("It's a Draw");
   msg.innerText = "It's a Draw."
-  msg.style.backgroundColor = '#081b31';
+  msg.style.backgroundColor = '#82081d';
 }
 
 const showWinner = (userwin, userChoice, compChoice) =>{
