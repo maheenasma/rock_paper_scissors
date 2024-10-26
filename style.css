@@ -72,6 +72,9 @@ img{
     .choices{
       flex-direction: column;
     }
+    #msg{
+      display: inline;
+      font-size: calc(15px + 1vw);
+    }
   }
-  
 }
