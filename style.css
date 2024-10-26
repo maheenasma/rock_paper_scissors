@@ -74,7 +74,7 @@ img{
     }
     #msg{
       display:inline;
-      font-size: calc(15px + 1vw);
+      font-size: calc(12px + 1vw);
     }
   }
   
