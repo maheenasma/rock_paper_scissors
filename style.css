@@ -67,14 +67,25 @@ img{
   border-radius: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 390px) {
   body{
     .choices{
       flex-direction: column;
     }
     #msg{
-      display:inline;
-      font-size: calc(12px + 1vw);
+      font-size: calc(9px + 1vw);
+    }
+    .score-board{
+      gap:2rem;
+      font-size: 1.5rem;
+    }
+    #user-score, #comp-score{
+      font-size: 3rem;
+    }
+    h1{
+      font-size: 1rem;
+      text-decoration: underline;
     }
   }
   
